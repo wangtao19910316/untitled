@@ -14,4 +14,4 @@ def index(request):
         print(username,password)
     # request.POST
     # request.GET
-    return render(request,'index.html',{'data':user_list})
+    return render(request,'index.html',{'data':user_list}
